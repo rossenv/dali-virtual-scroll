@@ -33,7 +33,8 @@ function VirtualScroll(options) {
         keyStep: 120,
         preventTouch: false,
         unpreventTouchClass: 'vs-touchmove-allowed',
-        limitInertia: false
+        limitInertia: false,
+        listenSpacebar: true
     }, options);
 
     if (this.options.limitInertia) this._lethargy = new Lethargy();
@@ -143,10 +144,10 @@ VirtualScroll.prototype._onKeyDown = function(e) {
         case keyCodes.DOWN:
             evt.deltaY = - this.options.keyStep;
             break;
-        case keyCodes.SPACE && e.shiftKey:
+        case keyCodes.SPACE && e.shiftKey && this.options.listenSpacebar:
             evt.deltaY = windowHeight;
             break;
-        case keyCodes.SPACE:
+        case keyCodes.SPACE && this.options.listenSpacebar:
             evt.deltaY = - windowHeight;
             break;
         default:

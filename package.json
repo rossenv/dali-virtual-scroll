@@ -1,7 +1,7 @@
 {
-  "name": "virtual-scroll",
-  "version": "1.3.1",
-  "description": "Smooth fake scroll using CSS transform",
+  "name": "virtual-scroll-locomotive",
+  "version": "1.3.2",
+  "description": "Smooth fake scroll using CSS transform, forked from ayamflow repository",
   "main": "src/index.js",
   "scripts": {
     "test": "browserify test/index.js | tap-closer | smokestack | faucet",
@@ -9,19 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayamflow/virtual-scroll"
+    "url": "https://github.com/locomotivemtl/virtual-scroll"
   },
-  "keywords": [
-    "virtual",
-    "scroll",
-    "smooth"
-  ],
   "author": "= <=>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayamflow/virtual-scroll/issues"
+    "url": "https://github.com/locomotivemtl/virtual-scroll/issues"
   },
-  "homepage": "https://github.com/ayamflow/virtual-scroll",
+  "homepage": "https://github.com/locomotivemtl/virtual-scroll",
   "dependencies": {
     "bindall-standalone": "^1.0.5",
     "lethargy": "^1.0.2",
