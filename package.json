@@ -1,5 +1,5 @@
 {
-  "name": "virtual-scroll-locomotive",
+  "name": "dali-virtual-scroll",
   "version": "1.4.0",
   "description": "Smooth fake scroll using CSS transform, forked from ayamflow repository",
   "main": "src/index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/locomotivemtl/virtual-scroll"
+    "url": "https://github.com/rossenv/dali-virtual-scroll"
   },
   "author": "= <=>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/locomotivemtl/virtual-scroll/issues"
+    "url": "https://github.com/rossenv/dali-virtual-scroll/issues"
   },
-  "homepage": "https://github.com/locomotivemtl/virtual-scroll",
+  "homepage": "https://github.com/rossenv/dali-virtual-scroll",
   "dependencies": {
     "bindall-standalone": "^1.0.5",
     "lethargy": "^1.0.2",
